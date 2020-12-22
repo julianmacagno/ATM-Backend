@@ -137,6 +137,8 @@ public class AtmController {
 			try {
 				lat = (String) obj.get("lat");
 			} catch (JSONException e) {
+				if(!(e instanceof JSONException))
+					e.printStackTrace();
 				atm.remove(i);
 				i--;
 				continue;
