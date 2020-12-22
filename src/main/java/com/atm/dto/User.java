@@ -1,10 +1,7 @@
 package com.atm.dto;
 
 public class User {
-
-	private String username;
-	private String password;
-	private String token;
+	private String username, password, token;
 
 	public String getUsername() {
 		return username;
@@ -29,5 +26,4 @@ public class User {
 	public void setToken(String token) {
 		this.token = token;
 	}
-
 }
