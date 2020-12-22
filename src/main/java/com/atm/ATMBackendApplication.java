@@ -19,10 +19,10 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import com.atm.security.JWTAuthorizationFilter;
 
 @SpringBootApplication
-public class JwtDemoApplication extends SpringBootServletInitializer {
+public class ATMBackendApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JwtDemoApplication.class, args);
+		SpringApplication.run(ATMBackendApplication.class, args);
 	}
 
 	@EnableWebSecurity
