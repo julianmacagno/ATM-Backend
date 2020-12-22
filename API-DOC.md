@@ -41,7 +41,7 @@ POST
 
 - URL: 
 ```
-/login
+/atm
 ```
 
 - Método: 
