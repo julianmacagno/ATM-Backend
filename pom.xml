@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.atm</groupId>
 	<artifactId>ATM-Backend</artifactId>
-	<version>1</version>
+	<version>v1.0</version>
 	<name>ATM-Backend</name>
 	<packaging>war</packaging>
 
